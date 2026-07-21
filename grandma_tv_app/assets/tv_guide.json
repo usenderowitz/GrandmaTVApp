@@ -1,0 +1,172 @@
+{
+    "items": [
+        {
+            "id": 104200864,
+            "programId": 4966834,
+            "title": "מהדורה מרכזית",
+            "description": "מהדורת החדשות המרכזית של ערוץ 9. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI66770.JPG",
+            "starts": "2026-07-21T20:00:00",
+            "ends": "2026-07-21T22:00:00",
+            "channelId": "TV50",
+            "starts_local": "20:00",
+            "ends_local": "22:00"
+        },
+        {
+            "id": 104204255,
+            "programId": 4967911,
+            "title": "הפטריוטים - בהגשת ינון מגל",
+            "description": "הפטריוטים בהגשת ינון מגל. כ' עב'. כ' סמ'. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI84784.JPG",
+            "starts": "2026-07-21T21:00:00",
+            "ends": "2026-07-21T22:30:00",
+            "channelId": "PT92",
+            "starts_local": "21:00",
+            "ends_local": "22:30"
+        },
+        {
+            "id": 104302281,
+            "programId": 4985976,
+            "title": "פאוור קאפל - ההדחה שיצאה משליטה!",
+            "description": "הגיע הזמן לשופינג, והמחיר כבד - מי יהיה הזוג שיודח במשימת המכירה הפומבית? כ' עב', ת.פ",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI89669.jpg",
+            "starts": "2026-07-21T21:15:00",
+            "ends": "2026-07-21T23:15:00",
+            "channelId": "CH36",
+            "starts_local": "21:15",
+            "ends_local": "23:15"
+        },
+        {
+            "id": 104244736,
+            "programId": 4963080,
+            "title": "חתונה ממבט ראשון - המשפט ששינה הכל",
+            "description": "סופי חושפת את הרגשות שלה בפני דור, איך הוא יגיב? וגם- שיחה דרמטית של נטע ואביתר בקליניקה, משאירה את אביתר ללא מילים. כ' עב'. ת.פ.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI88469.JPG",
+            "starts": "2026-07-21T21:25:00",
+            "ends": "2026-07-21T23:00:00",
+            "channelId": "CH34",
+            "starts_local": "21:25",
+            "ends_local": "23:00"
+        },
+        {
+            "id": 104200865,
+            "programId": 4966835,
+            "title": "תיק רפואי",
+            "description": "תכנית ריאליטי על אודות רופאים ומטופליהם. ניתוחים בפרטי פרטים.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI58494.JPG",
+            "starts": "2026-07-21T22:00:00",
+            "ends": "2026-07-21T22:30:00",
+            "channelId": "TV50",
+            "starts_local": "22:00",
+            "ends_local": "22:30"
+        },
+        {
+            "id": 104209688,
+            "programId": 4969737,
+            "title": "עקבות - מה שגדל, גדל",
+            "description": "סדרה בלשית. מה שגדל, גדל: חודש לאחר מינויה למנהלת מחלקת התרבות של סוריקאטובו נרצחת סבטלנה סלניקובה.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI31477.JPG",
+            "starts": "2026-07-21T22:30:00",
+            "ends": "2026-07-21T23:15:00",
+            "channelId": "TV50",
+            "starts_local": "22:30",
+            "ends_local": "23:15"
+        },
+        {
+            "id": 104262577,
+            "programId": 4977983,
+            "title": "הקרב על הכותל",
+            "description": "הקרב על הכותל. כ' עב'. כ' סמ'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SID2142.JPG",
+            "starts": "2026-07-21T22:30:00",
+            "ends": "2026-07-21T23:00:00",
+            "channelId": "PT92",
+            "starts_local": "22:30",
+            "ends_local": "23:00"
+        },
+        {
+            "id": 104244739,
+            "programId": 4975881,
+            "title": "גיא פינס - הכסף של מעיין אדם",
+            "description": "גיא פינס עם מיטב הכתבות הכי חמות בחדשות הבידור - הסיפורים האחרונים, הכוכבים הנוצצים והשערוריות המרתקות ביותר בארץ ובעולם. כ' סמ'/עב'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI87779.JPG",
+            "starts": "2026-07-21T23:00:00",
+            "ends": "2026-07-21T23:35:00",
+            "channelId": "CH34",
+            "starts_local": "23:00",
+            "ends_local": "23:35"
+        },
+        {
+            "id": 104204264,
+            "programId": 4967914,
+            "title": "חדשות הלילה",
+            "description": "חדשות הלילה. כ' עב'. כ' סמ'. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI83030.JPG",
+            "starts": "2026-07-21T23:00:00",
+            "ends": "2026-07-21T23:45:00",
+            "channelId": "PT92",
+            "starts_local": "23:00",
+            "ends_local": "23:45"
+        },
+        {
+            "id": 104209689,
+            "programId": 4691689,
+            "title": "אישה בצרה 4 - פרק 1",
+            "description": "סדרה בלשית. אימה של אנה נעלמת ללא עקבות. הגיבורים שלנו יוצאים לחיפושים אחריה וחושדים, כי היא נחטפה (רוסיה, 2016). ש.ח.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI85840.JPG",
+            "starts": "2026-07-21T23:15:00",
+            "ends": "2026-07-22T00:05:00",
+            "channelId": "TV50",
+            "starts_local": "23:15",
+            "ends_local": "00:05"
+        },
+        {
+            "id": 104260965,
+            "programId": 4950337,
+            "title": "הצינור - פריימרק מורידה מחירים!",
+            "description": "מגזין הרשת של ערוץ 13 גיא לרר בתכנית אקטואליה חברתית, עם תחקירים, כתבות וכל הסיפורים החמים מהרשת. כת' עפ''י דרישה. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI72551.JPG",
+            "starts": "2026-07-21T23:15:00",
+            "ends": "2026-07-21T23:35:00",
+            "channelId": "CH36",
+            "starts_local": "23:15",
+            "ends_local": "23:35"
+        },
+        {
+            "id": 104244685,
+            "programId": 4975868,
+            "title": "אברי ושרקי",
+            "description": "אברי גלעד ויאיר שרקי בתכנית מיוחדת על כל אירועי היום בארץ ובעולם עם הפרשנים, הכתבים והאורחים המעניינים. כ' סמ'/עב'. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI89279.JPG",
+            "starts": "2026-07-21T23:35:00",
+            "ends": "2026-07-22T00:35:00",
+            "channelId": "CH34",
+            "starts_local": "23:35",
+            "ends_local": "00:35"
+        },
+        {
+            "id": 104260968,
+            "programId": 4977252,
+            "title": "היום שהיה - עם טל שורר",
+            "description": "טל שורר עם תוכנית סיכום היום - כל אירועי היום שהיה: הכותרות הבולטות, הסיפורים החשובים והעדכונים האחרונים. כ' סמ' שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI82268.JPG",
+            "starts": "2026-07-21T23:35:00",
+            "ends": "2026-07-22T00:00:00",
+            "channelId": "CH36",
+            "starts_local": "23:35",
+            "ends_local": "00:00"
+        },
+        {
+            "id": 104307775,
+            "programId": 4987128,
+            "title": "מגזין עם עודד מנשה",
+            "description": "מגזין עם עודד מנשה. ת.פ. כ' עב'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SID2142.JPG",
+            "starts": "2026-07-21T23:45:00",
+            "ends": "2026-07-22T00:15:00",
+            "channelId": "PT92",
+            "starts_local": "23:45",
+            "ends_local": "00:15"
+        }
+    ]
+}
