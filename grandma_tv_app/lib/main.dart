@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
+import 'package:http/http.dart' as http;
 
 void main() {
   runApp(const GrandmaTVApp());
@@ -45,18 +45,32 @@ class _TVGuideHomePageState extends State<TVGuideHomePage> {
   @override
   void initState() {
     super.initState();
-    loadTvGuideJson();
+    loadTvGuide(); // Load the guide when the app starts
   }
 
-  Future<void> loadTvGuideJson() async {
+  Future<void> loadTvGuide() async {
     try {
-      final String response = await rootBundle.loadString('assets/tv_guide.json');
-      final data = json.decode(response);
-      setState(() {
-        tvData = data;
-        isLoading = false;
-      });
+      // Fetch the raw JSON file directly from GitHub
+      final response = await http.get(
+        Uri.parse('https://raw.githubusercontent.com/usenderowitz/GrandmaTVApp/main/grandma_tv_app/assets/tv_guide.json'),
+      );
+
+      if (response.statusCode == 200) {
+        // Decode the JSON data received from the network
+        final decodedData = json.decode(utf8.decode(response.bodyBytes));
+        
+        // Update the UI with the new data and stop the loading spinner
+        setState(() {
+          tvData = decodedData;
+          isLoading = false;
+        });
+      } else {
+        // Throw an error if the server fails to return the file
+        throw Exception('Failed to load TV guide from network');
+      }
     } catch (e) {
+      // Print the error to the console and stop loading
+      print('Error: $e');
       setState(() {
         isLoading = false;
       });
