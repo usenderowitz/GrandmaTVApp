@@ -1,3 +1,172 @@
 {
-    "items": []
+    "items": [
+        {
+            "id": 104200896,
+            "programId": 4966859,
+            "title": "מהדורה מרכזית",
+            "description": "מהדורת החדשות המרכזית של ערוץ 9. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI66770.JPG",
+            "starts": "2026-07-22T20:00:00",
+            "ends": "2026-07-22T22:00:00",
+            "channelId": "TV50",
+            "starts_local": "20:00",
+            "ends_local": "22:00"
+        },
+        {
+            "id": 104262610,
+            "programId": 4977992,
+            "title": "משדר מיוחד - ערב תשעה באב מהכותל: דנה ור",
+            "description": "משדר מיוחד - ערב תשעה באב מהכותל עם דנה ורון ועודד הרוש. כ' עב'. כ' סמ'. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI80519.JPG",
+            "starts": "2026-07-22T21:00:00",
+            "ends": "2026-07-22T22:30:00",
+            "channelId": "PT92",
+            "starts_local": "21:00",
+            "ends_local": "22:30"
+        },
+        {
+            "id": 104244778,
+            "programId": 4987208,
+            "title": "לא מה שחשבתם",
+            "description": "עידן עמדי בפרויקט מיוחד של ערוץ 12 לתשעה באב- ישראלים מכל הקצוות עונים על השאלות הכי קשות בחברה הישראלית. הזדמנות למצוא המחבר בינינו, באירוע טלוויזיוני יוצא דופן. כ' עב'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI90300.jpg",
+            "starts": "2026-07-22T21:30:00",
+            "ends": "2026-07-22T22:10:00",
+            "channelId": "CH34",
+            "starts_local": "21:30",
+            "ends_local": "22:10"
+        },
+        {
+            "id": 104261061,
+            "programId": 4356355,
+            "title": "אבודים - תעלומת היתומים היהודים",
+            "description": "אחרי שנעלמו עשרות יתומים יהודים מעיירה נידחת ברוסיה, אבודים יוצאת לרוסיה ולארה''ב, כדי לחשוף אמת מחרידה: לאן נעלמו שני אחיה הקטנים של נטע, ששהו גם הם בבית הילדים? מי עושה הכל כדי להחביא אותם? ש.ח.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI77985.JPG",
+            "starts": "2026-07-22T21:30:00",
+            "ends": "2026-07-22T22:12:00",
+            "channelId": "CH36",
+            "starts_local": "21:30",
+            "ends_local": "22:12"
+        },
+        {
+            "id": 104241964,
+            "programId": 0,
+            "title": "בעקבות רשימת ייגר",
+            "description": "תעודה. כ-200,000 יהודים נרצחו בליטא במהלך השואה. מדוע לאחר הכיבוש הסובייטי ב-1940 ראו ליטאים רבים ביהודים בוגדים? במאי: בוריס מפציר.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SID1466.jpg",
+            "starts": "2026-07-22T22:00:00",
+            "ends": "2026-07-22T23:55:00",
+            "channelId": "TV50",
+            "starts_local": "22:00",
+            "ends_local": "23:55"
+        },
+        {
+            "id": 104244781,
+            "programId": 0,
+            "title": "בין 6 באוקטובר ל-7 באוקטובר",
+            "description": "סיפורו של אלוף (מיל') דורון אלמוג, אחד הישראלים היחידים שגם הדליק משואה ביום העצמאות וגם זכה בפרס ישראל. סרטה של סימה קדמון. כ' עב'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI90220.jpg",
+            "starts": "2026-07-22T22:10:00",
+            "ends": "2026-07-22T23:15:00",
+            "channelId": "CH34",
+            "starts_local": "22:10",
+            "ends_local": "23:15"
+        },
+        {
+            "id": 104261064,
+            "programId": 4368615,
+            "title": "אבודים - פתרון תעלומת היתומים",
+            "description": "תעלומת היתומים היהודים בדרך לפתרון. מה קרה לאח של לנה בבית היתומים, והאם אחרי 30 שנה היא תצליח להציל אותו? כ' עב'. ש.ח.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI77985.JPG",
+            "starts": "2026-07-22T22:12:00",
+            "ends": "2026-07-22T22:56:00",
+            "channelId": "CH36",
+            "starts_local": "22:12",
+            "ends_local": "22:56"
+        },
+        {
+            "id": 104262613,
+            "programId": 4977993,
+            "title": "שיחה עם עודד הרוש",
+            "description": "שיחה עם עודד הרוש. כ' עב'. כ' סמ'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI82807.JPG",
+            "starts": "2026-07-22T22:30:00",
+            "ends": "2026-07-22T23:00:00",
+            "channelId": "PT92",
+            "starts_local": "22:30",
+            "ends_local": "23:00"
+        },
+        {
+            "id": 104261067,
+            "programId": 4977281,
+            "title": "היום שהיה - עם טל שורר",
+            "description": "טל שורר עם תוכנית סיכום היום - כל אירועי היום שהיה: הכותרות הבולטות, הסיפורים החשובים והעדכונים האחרונים. כ' סמ' שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI82268.JPG",
+            "starts": "2026-07-22T22:56:00",
+            "ends": "2026-07-22T23:18:00",
+            "channelId": "CH36",
+            "starts_local": "22:56",
+            "ends_local": "23:18"
+        },
+        {
+            "id": 104262616,
+            "programId": 4977992,
+            "title": "משדר מיוחד - ערב תשעה באב מהכותל: דנה ור",
+            "description": "משדר מיוחד - ערב תשעה באב מהכותל עם דנה ורון ועודד הרוש. כ' עב'. כ' סמ'. שידור חי.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI80519.JPG",
+            "starts": "2026-07-22T23:00:00",
+            "ends": "2026-07-23T00:00:00",
+            "channelId": "PT92",
+            "starts_local": "23:00",
+            "ends_local": "00:00"
+        },
+        {
+            "id": 104244784,
+            "programId": 4963043,
+            "title": "רפי רשף אינטימי - אלחנן דנינו",
+            "description": "רפי רשף בשיחה אישית עם אלחנן דנינו על היחסים המורכבים עם אביו כשהחליט להתגייס, שיחת הטלפון המצמררת מחייל שאפשר לו לשמוע את קולו של אורי - יומיים לפני שנרצח ולמי הוא שוקל להצביע בבחירות. כ' עב'.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI51568.JPG",
+            "starts": "2026-07-22T23:15:00",
+            "ends": "2026-07-22T23:50:00",
+            "channelId": "CH34",
+            "starts_local": "23:15",
+            "ends_local": "23:50"
+        },
+        {
+            "id": 104261070,
+            "programId": 0,
+            "title": "קוד אריזונה",
+            "description": "הסודות מאחורי המבצע הישראלי להשמדת הכור בסוריה: איך המוסד השיג את המידע על הכור, ההצטיידות הסודית של צה''ל למלחמה, ומאחורי הקלעים של קבלת ההחלטה הגורלית. ש.ח.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI80237.JPG",
+            "starts": "2026-07-22T23:18:00",
+            "ends": "2026-07-23T00:38:00",
+            "channelId": "CH36",
+            "starts_local": "23:18",
+            "ends_local": "00:38"
+        },
+        {
+            "id": 104281441,
+            "programId": 4982694,
+            "title": "מה באמת קרה שם? - גיא פלג עונה על הכול",
+            "description": "תכנית האירוח של ארז טל. אחרי השנה הסוערת, גיא פלג עונה על הכל בריאיון טלוויזיוני ראשון. כ' עב'. ש.ח.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SI77986.JPG",
+            "starts": "2026-07-22T23:50:00",
+            "ends": "2026-07-23T00:40:00",
+            "channelId": "CH34",
+            "starts_local": "23:50",
+            "ends_local": "00:40"
+        },
+        {
+            "id": 104241965,
+            "programId": 0,
+            "title": "תיבת הזיכרונות",
+            "description": "סרט תעודה של בוריס מפציר, המספר על אודות היסטוריה של יהודי לטביה לפני ואחרי שואה.",
+            "imageUrl": "https://fykswkmjb.filerobot.com/extch/SID1466.jpg",
+            "starts": "2026-07-22T23:55:00",
+            "ends": "2026-07-23T01:13:00",
+            "channelId": "TV50",
+            "starts_local": "23:55",
+            "ends_local": "01:13"
+        }
+    ]
 }
