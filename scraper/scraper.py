@@ -31,10 +31,16 @@ def fetch_corrected_schedule():
         
         try:
             response = session.get(url, headers=headers)
+            # הדפסה קריטית כדי לזהות חסימות מחו"ל ב-GitHub Actions
+            print(f"[{ch['name']}] Status Code: {response.status_code}")
+            
             if response.status_code == 200:
                 data = response.json()
                 if "items" in data:
                     for item in data["items"]:
+                        # ---> התיקון שלנו: הדבקת תגית הערוץ לכל תוכנית <---
+                        item["channelId"] = ch["id"]
+                        
                         # Convert UTC string times to local Israel time (+3 hours)
                         if "starts" in item and item["starts"]:
                             dt_start = datetime.strptime(item["starts"], "%Y-%m-%dT%H:%M:%SZ") + timedelta(hours=3)
@@ -47,6 +53,8 @@ def fetch_corrected_schedule():
                             item["ends"] = dt_end.isoformat()
                             
                         all_programs.append(item)
+            else:
+                print(f"Failed to fetch {ch['name']}. Response: {response.text[:100]}")
         except Exception as e:
             print(f"Error fetching {ch['name']}: {e}")
 

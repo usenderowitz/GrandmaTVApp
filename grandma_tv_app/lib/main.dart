@@ -51,8 +51,10 @@ class _TVGuideHomePageState extends State<TVGuideHomePage> {
   Future<void> loadTvGuide() async {
     try {
       // Fetch the raw JSON file directly from GitHub
+      // Adding a timestamp to the URL to bypass GitHub and browser cache
+      final timestamp = DateTime.now().millisecondsSinceEpoch;
       final response = await http.get(
-        Uri.parse('https://raw.githubusercontent.com/usenderowitz/GrandmaTVApp/main/grandma_tv_app/assets/tv_guide.json'),
+        Uri.parse('https://raw.githubusercontent.com/usenderowitz/GrandmaTVApp/main/grandma_tv_app/assets/tv_guide.json?v=$timestamp'),
       );
 
       if (response.statusCode == 200) {
