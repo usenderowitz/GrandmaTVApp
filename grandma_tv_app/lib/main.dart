@@ -48,31 +48,35 @@ class _TVGuideHomePageState extends State<TVGuideHomePage> {
     loadTvGuide(); // Load the guide when the app starts
   }
 
+  // Function to load and refresh TV guide data from GitHub
   Future<void> loadTvGuide() async {
+    setState(() {
+      isLoading = true; // Show loading spinner while refreshing
+    });
+
     try {
-      // Fetch the raw JSON file directly from GitHub
-      // Adding a timestamp to the URL to bypass GitHub and browser cache
       final timestamp = DateTime.now().millisecondsSinceEpoch;
-      final response = await http.get(
-        Uri.parse('https://raw.githubusercontent.com/usenderowitz/GrandmaTVApp/main/grandma_tv_app/assets/tv_guide.json?v=$timestamp'),
-      );
+      // Make sure this URL points directly to the RAW file on GitHub
+      final url = 'https://raw.githubusercontent.com/usenderowitz/GrandmaTVApp/main/grandma_tv_app/assets/tv_guide.json?v=$timestamp';
+      print('Fetching from: $url'); // Print URL to debug console
+
+      final response = await http.get(Uri.parse(url));
+
+      print('Response status: ${response.statusCode}'); // Print status code
 
       if (response.statusCode == 200) {
-        // Decode the JSON data received from the network
         final decodedData = json.decode(utf8.decode(response.bodyBytes));
         
-        // Update the UI with the new data and stop the loading spinner
         setState(() {
           tvData = decodedData;
           isLoading = false;
         });
+        print('Data loaded successfully! Items count: ${decodedData['items']?.length ?? 0}');
       } else {
-        // Throw an error if the server fails to return the file
-        throw Exception('Failed to load TV guide from network');
+        throw Exception('Failed to load TV guide, status code: ${response.statusCode}');
       }
     } catch (e) {
-      // Print the error to the console and stop loading
-      print('Error: $e');
+      print('Error loading TV guide: $e');
       setState(() {
         isLoading = false;
       });
@@ -139,6 +143,12 @@ class _TVGuideHomePageState extends State<TVGuideHomePage> {
                   ),
                 ],
               ),
+        // Added floating action button to manually refresh the schedule data
+        floatingActionButton: FloatingActionButton(
+          onPressed: loadTvGuide,
+          backgroundColor: Colors.amber,
+          child: const Icon(Icons.refresh, size: 35, color: Colors.black),
+        ),
       ),
     );
   }
