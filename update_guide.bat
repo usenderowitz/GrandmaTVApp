@@ -13,4 +13,3 @@ git commit -m "Auto-update TV guide from local machine"
 git push
 
 echo Done!
-pause
