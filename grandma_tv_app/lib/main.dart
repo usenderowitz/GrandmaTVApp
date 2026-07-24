@@ -21,7 +21,7 @@ class GrandmaTVApp extends StatelessWidget {
           backgroundColor: Colors.blueGrey[800],
           centerTitle: true,
           titleTextStyle: const TextStyle(
-            fontSize: 32,
+            fontSize: 24,
             fontWeight: FontWeight.bold,
             color: Colors.white,
           ),
@@ -272,8 +272,8 @@ class _TVGuideHomePageState extends State<TVGuideHomePage> {
         });
       },
       child: Container(
-        width: 90,
-        height: 65,
+        width: 95,
+        height: 85,
         margin: const EdgeInsets.symmetric(horizontal: 4.0),
         decoration: BoxDecoration(
           color: isSelected ? Colors.amber : Colors.white,
